@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65"  class="key" onclick="play()">
+            <span class="sound">clap</span>
+            <kbd class="letter">A</kbd>
+        </div>
+
+        <div data-key="83" class="key" onclick="play()">
+            <span class="sound">hihat</span>
+            <kbd class="letter">S</kbd>
+        </div>
+
+        <div data-key="68" class="key" onclick="play()">
+            <span class="sound">kick</span>
+            <kbd class="letter">D</kbd>
+        </div>
+
+        <div data-key="70" class="key" onclick="play()">
+            <span class="sound">openhat</span>
+            <kbd class="letter">F</kbd>
+        </div>
+
+        <div data-key="71" class="key" onclick="play()">
+            <span class="sound">tom</span>
+            <kbd class="letter">G</kbd>
+        </div>
+
+        <div data-key="72" class="key" onclick="play()">
+            <span class="sound">snare</span>
+            <kbd class="letter">H</kbd>
+        </div>
+
+        <div data-key="74" class="key" onclick="play()">
+            <span class="sound">crash</span>
+            <kbd class="letter">J</kbd>
+        </div>
+
+        <div data-key="75" class="key" onclick="play()">
+            <span class="sound">ride</span>
+            <kbd class="letter">K</kbd>
+        </div>
+
+        <div data-key="76" class="key" onclick="play()">
+            <span class="sound">splash</span>
+            <kbd class="letter">L</kbd>
+        </div>
+    </div>
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/tom.wav"></audio>
+    <audio data-key="72" src="sounds/snare.wav"></audio>
+    <audio data-key="74" src="sounds/crash.wav"></audio>
+    <audio data-key="75" src="sounds/ride.wav"></audio>
+    <audio data-key="76" src="sounds/splash.wav"></audio>
+
+
+    <script src="script.js"></script>
+    
+       
+</body>
+</html>
