@@ -17,7 +17,7 @@ press.addEventListener("click",function(){
         press.innerHTML = "OFF"
     }
     else{
-        blink.style.backgroundColor = "transparent"
+        blink.style.backgroundColor = "yellow"
         flag = 1
         press.innerHTML = "ON"
     }
