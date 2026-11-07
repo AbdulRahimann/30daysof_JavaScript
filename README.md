@@ -4,3 +4,5 @@
 drumkit --> https://abdulrahimann.github.io/30daysof_JavaScript/drumkit/index.html
 
 rockpaper --> https://abdulrahimann.github.io/30daysof_JavaScript/rockpaper/index.html
+
+calculator --> https://abdulrahimann.github.io/30daysof_JavaScript/calculator/index.html
